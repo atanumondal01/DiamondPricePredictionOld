@@ -1,4 +1,10 @@
 pandas
 numpy 
 flask
--e .
+seaborn
+matplotlib
+#-e .   comment this because it creates package
+#gives problem when you want to add packages to requirements
+#and -e is at last
+#DiamondPricePrediction.egg-info gets added delete it manually 
+#if such problem occurs,we will add this at the end to project

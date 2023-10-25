@@ -3,6 +3,8 @@ import sys
 from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
+    #error_detail:sys  ==system error details by default
+#exc_info() is present in error_detail and inherited from sys    
     _,_,exc_tb = error_detail.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
 
