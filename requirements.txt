@@ -3,6 +3,7 @@ numpy
 flask
 seaborn
 matplotlib
+scikit-learn
 #-e .   comment this because it creates package
 #gives problem when you want to add packages to requirements
 #and -e is at last
