@@ -1,1 +1,1 @@
-#Machine leanrning project for diamond price prediction
+#Machine leanrning project for diamond price prediction .
